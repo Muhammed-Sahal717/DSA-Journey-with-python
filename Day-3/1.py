@@ -15,8 +15,10 @@ numbers = [12, -5, 0, 7, -3, 8, 0, 15]
 # Step 2: Initialize counters
 even_count = 0
 odd_count = 0
+
 positive_count = 0
 negative_count = 0
+
 zero_count = 0
 
 # Step 3: Loop through the list
@@ -41,6 +43,6 @@ for num in numbers:
 print("Numbers:", numbers)
 print("Positive numbers:", positive_count)
 print("Negative numbers:", negative_count)
-print("Zero values:", zero_count)
+print("zero values:", zero_count)
 print("Even numbers:", even_count)
 print("Odd numbers:", odd_count)
