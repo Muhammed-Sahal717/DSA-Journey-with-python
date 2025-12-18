@@ -4,6 +4,6 @@
 # Input: "madam" Output: True
 
 
-text = "malayalaa"
+text = "malayalam"
 text = text[::-1]
 print(text)
