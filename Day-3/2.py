@@ -43,15 +43,18 @@ Use if / elif / else
 
 Do not use functions yet"""
 
-# Step 1: List of item pricesitem_prices = [250, 450, 300, 700, 150, 600]
+# Step 1: List of item prices
 item_prices = [250, 450, 300, 700, 150, 600]
+
 # Step 2: Initialize total bill amount
 total_bill = 0
+
 # Step 3: Loop through the list to display prices and calculate total
 print("Item Prices:")
 for price in item_prices:
     print(f"- ${price}")
     total_bill += price
+
 # Step 4: Apply discount rules
 if total_bill >= 2000:
     discount_rate = 0.20
@@ -61,11 +64,14 @@ elif total_bill >= 1000:
     discount_rate = 0.05
 else:
     discount_rate = 0.0
+
 discount_amount = total_bill * discount_rate
 final_amount = total_bill - discount_amount
+
 # Step 5: Find highest and lowest priced items
 highest_price = max(item_prices)
 lowest_price = min(item_prices)
+
 # Step 6: Print results
 print(f"\nTotal Bill Amount: ${total_bill:.2f}")
 print(f"Discount Amount: ${discount_amount:.2f}")
